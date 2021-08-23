@@ -1,27 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+html, body, header, div, ul, li, a, p, h1, h2, section, article{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style: none;
+	font-family: 'Lato', sans-serif;
+}
+
+
+
+
+#top{
+	margin: 0 auto;
+    width: 1500px
+}
+
+
+
+.sectionContent article{
+	margin-bottom: 15px;
+}
+
+.mainDetails{
+	margin: 32px;
+
+}
+
+#headshot img{
+	border-radius: 50%;
+}
+
+
+.firstline{
+	width: 1680px;
+	background-color: #cf8a05;
+	border-style: none;
+	height: 2px;
+	
+}
+
+.secondline{
+	width: 1680px;
+	background-color: #dedede;
+	border-style: none;
+	height: 1px;
+}
+
+#name h1{
+	font-size: 50px;
+
+}
+
+#name h2{
+	font-size: 40px;
+	font-weight: 400;
+
+}
+
+.subDetails{
+	color:#181818;
+	font-style: italic;
+}
+
+
+
 .clear {
 	clear: both;
+
+
 }
 
 #headshot {
 	width: 12.5%;
 	float: left;
 	margin-right: 30px;
+	
 }
 
 #name {
 	float: left;
+
 }
 
 #contactDetails {
 	float: right;
+	padding: 15px;
+	color:#181818;
 }
 
 .sectionTitle {
 	float: left;
-	width: 25%;
+    width: 25%;
+    padding: 30px;
+	color: #cf8a05;
+
 }
+
+
+
 
 .sectionContent {
 	float: right;
-	width: 72.5%;
+    width: 72.5%;
+    padding: 20px;;
 }
+
+.sectionContent article h2{
+	font-weight: 500;
+	color: #444444;
+}
+
+.keySkills{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+
+
+}
+
+#default{
+	font-size: 1.5em;
+}
+
